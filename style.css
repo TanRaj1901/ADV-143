@@ -1,0 +1,55 @@
+body{
+    background-position: center;
+    background-size: cover;
+}
+
+.heading{
+    width: 100%;
+    text-align: left;
+}
+
+.heading h3{
+    display: inline;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+
+.big_image {
+    width: 100%;
+}
+
+#status {
+    font-size: 22px;
+}
+
+canvas{
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    border-style: ridge;
+    border-width: 5px;
+}
+
+#footer{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.instruction_image{
+    display: inline-block;
+    width: 80%;
+}
+
+.modal-dialog{
+    width: 90%;
+}
+
+.modal-body{
+    text-align: left;
+}
