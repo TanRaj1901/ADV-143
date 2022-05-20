@@ -56,12 +56,6 @@ function gotPoses(results)
   }
 }
 
-function preload(){
-  ball_touch_paddle = loadSound("ball_touch_paddle.wav");
-  missed = loadSound("missed.wav");
-}
-
-
 function startGame()
 {
    game_status = "start";
@@ -122,7 +116,10 @@ if(game_status == "start") // inside the if condition check if the game_status i
 
   }
 
-
+function preload(){
+  ball_touch_paddle = loadSound("ball_touch_paddle.wav");
+  missed = loadSound("missed.wav");
+}
 
 //function reset when ball does notcame in the contact of padde
 function reset(){
